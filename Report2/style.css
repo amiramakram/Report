@@ -1,7 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.row{
+    padding: 0 !important;
+    margin: 0 !important;
+}
 header {
    
     color: #fff;
-    padding: 10px;
+   
     text-align: center;
 }
 
@@ -22,15 +30,16 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
 
+.hallNum{
+    background-color:#f2f2f2 !important;
+}
 .text1{
     text-align: left;
     margin-left: 50px;
     
 }
+
 .title{
     color: black;
 }
@@ -44,7 +53,7 @@ tr:nth-child(even) {
     font-size: 0.8rem;
 }
 .totalImg{
-    width: 80px;
+    width: 80px ;
 }
 .lineFooter {
     background-color: black;
