@@ -1,0 +1,64 @@
+header {
+   
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+/* CSS Styles for the Table */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.text1{
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.title{
+    color: black;
+}
+.nameUniversity{
+    color: #3d38a6;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+.contacts{
+    color: black;
+    font-size: 0.8rem;
+}
+.totalImg{
+    width: 80px;
+}
+.lineFooter {
+    background-color: black;
+    width: 300px;
+    height: 3px;
+    margin-left: 100px;
+    
+     }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
