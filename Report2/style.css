@@ -71,3 +71,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media print {
+    body {
+      background-image: url('background-image-for-print.png');
+    }
+  }
